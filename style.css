@@ -3,6 +3,29 @@ Folha de estilo do site one page HTML5 e CSS3
 @author Professor José de Assis
 joseassis.com.br
 */
-body{
-    background-color: #ff0000;
+
+/* Smartphone Portrait */
+/* Smartphone Landscape */
+@media(min-width: 576px){
+    body{
+        background-color: #0ff;
+    }
+}
+/* Tablet Portrait */
+@media(min-width: 768px){
+    body{
+        background-color: #ff0;
+    }
+}
+/* Tablet Landscape */
+@media(min-width: 992px){
+    body{
+        background-color: #ff6600;
+    }
+}
+/* PC >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media(min-width: 1200px){
+    body{
+        background-color: #ff0000;
+    }
 }
